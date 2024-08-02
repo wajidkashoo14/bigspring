@@ -26,7 +26,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`bg-white fixed w-full z-10 py-4 transition-shadow duration-300 ${hasShadow ? 'shadow-md' : ''}`}>
+    <nav className={`bg-white fixed w-full z-10 py-4 sm:py-2 transition-shadow duration-300 ${hasShadow ? 'shadow-md' : ''}`}>
       <div className="container mx-auto px-4 py-2 flex justify-between items-center">
         <div className="text-2xl font-bold flex items-center">
           <img src="/logo.jpg" alt="Logo" className="w-12 h-12" />
